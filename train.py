@@ -6,7 +6,7 @@ from sklearn.linear_model import Lasso
 import pickle
 import os
 
-X, y = make_regression(10000, n_features=9)
+X, y = make_regression(10000, n_features=11)
 
 # Train a model
 reg = Lasso().fit(X, y.ravel())
